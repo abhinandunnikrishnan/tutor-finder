@@ -1,6 +1,6 @@
 import axios from "axios";
 const axiosInstance=axios.create({
-    baseURL:"http://localhost:3000",
+    baseURL:"https://tutor-finder-server-3jvh.onrender.com",
     timeout:10000
 })
 axiosInstance.interceptors.response.use((response)=>{
